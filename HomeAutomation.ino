@@ -17,15 +17,15 @@
 #include <DHT.h>
 
 // WiFi and SinricPro credentials
-#define WIFI_SSID         "GG"
-#define WIFI_PASS         "nahidunga"
-#define APP_KEY           "a276340a-e1a7-41f6-b8dd-0bd97e3f71c2"
-#define APP_SECRET        "8781737b-6f7b-43c2-9920-8c16a3cd7a31-8146abaf-ab2a-4616-a794-a6ea7f153f4d"
+#define WIFI_SSID         "YOUR_WIFI_SSID"
+#define WIFI_PASS         "YOUR_WIFI_PASSWORD"
+#define APP_KEY           "YOUR_APP_KEY"
+#define APP_SECRET        "YOUR_APP_SECRET"
 
 // Device IDs for SinricPro and relay pins
-#define SWITCH_ID_1       "671b97e81fbebdc87b4771d3"   // LED
-#define SWITCH_ID_2       "671b98071fbebdc87b47721a"   // Fan
-#define TEMPERATURE_SENSOR_ID "671bad4d3770073bf63e2c02" // DHT11 Temperature Sensor
+#define SWITCH_ID_1       "YOUR_SWITCH_ID_1"   // LED
+#define SWITCH_ID_2       "YOUR_SWITCH_ID_2"   // Fan
+#define TEMPERATURE_SENSOR_ID "YOUR_TEMPERATURE_SENSOR_ID" // DHT11 Temperature Sensor
 
 // Relay pin setup
 #define RELAYPIN_1        26    // LED
